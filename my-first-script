@@ -1,0 +1,5 @@
+import datetime
+
+now = datetime.datetime.now()
+print(f"Текущее время: {now.strftime('%Y-%m-%d %H:%M:%S')}")
+Added time script
